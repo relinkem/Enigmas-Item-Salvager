@@ -1,7 +1,7 @@
 {
   "name": "Enigmas_Item_Salvager",
-  "version_number": "0.1.0",
-  "website_url": "",
+  "version_number": "0.1.2",
+  "website_url": "https://github.com/relinkem/Enigmas-Item-Salvager",
   "description": "Take your gear apart at the Workbench, Forge, Black Forge or Galdr Table. A Salvage tab, a new Salvaging skill, and hold-to-scrap for items with no recipe.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2351",
