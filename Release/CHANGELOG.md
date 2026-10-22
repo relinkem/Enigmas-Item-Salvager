@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+- Now works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) by MaxiMods (written for 1.5.0). With it installed, its + and - counter sets how many of a stack the Salvage tab scraps or breaks down (Scrap, creature heads and Core Wood), up to the size of the stack. Ctrl+click on + picks the whole stack, and the counter goes back to 1 after each use. The buttons are greyed for single items and normal salvage, and MultiCraft's repeat-craft no longer runs on the Salvage tab. Without MultiCraft nothing changes: the whole stack is used at once.
+- Looting a tombstone (the Take button or the E key) no longer goes through the hotbar reservation or the sort after Take All, so items stay in the exact slots they came from and ExtraSlots can restore its equipment slots and auto equip. This also holds in multiplayer when another player owns the tombstone.
+- Fixed the container buttons (Take, Stack, Sort and Drop) going missing or landing in the wrong place after you leave to the main menu and load back into a world. The buttons are now lined up again every time you load in, so you no longer have to restart the game.
+
 ## 0.1.2
 - New Sort button for your inventory. It merges partial stacks of the same item and arranges the bag by category (equipment, ammo, trinkets, tools, materials, trophies, food). The hotbar row and any slots added by other mods (such as ExtraSlots) are never used for sorting. Use the button on the inventory panel, the button under Place All in a chest or other container (it sorts that container), or press Ctrl+S to sort your bag. With ExtraSlots installed, Sort also fills its empty armor, trinket, food, ammo and misc slots with the best matching items and equips the armor (slots that already hold something are never changed). Controller: click the right stick (not tested on a controller).
 - The hotbar is now kept for weapons, tools, shields, torches, bows, food and ammo. Armor, materials, trophies and other items only land there when the bag is full, for both picking things up and Take All. Take All now puts tools and weapons first. Turn it off with the ReserveHotbar setting.
