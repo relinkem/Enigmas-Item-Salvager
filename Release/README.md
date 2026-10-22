@@ -31,6 +31,7 @@ The new Salvaging skill, in the skills list:
 - Creature trophies can be salvaged into materials, scaled by creature size.
 - Core Wood can be chopped into Wood at the Workbench (4 Wood each, editable with the LogTable setting).
 - A Sort button that merges partial stacks and tidies your bag, and a hotbar that stays free for tools and weapons.
+- Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/): its counter sets how many of a stack to scrap or break down.
 - Every return value, the ingredient weights and the sayings can be changed in the config.
 
 ## How it works
@@ -48,13 +49,13 @@ A new skill that levels each time you salvage. It adds to the amount returned an
 
 ### Scrap
 
-Items that have no recipe (loot, bits and pieces) show up in the same list with a **Scrap** button. Hold the button for 1.5 seconds to delete the whole stack. Let go early and nothing happens. You get nothing back, so it is a quick way to clear junk.
+Items that have no recipe (loot, bits and pieces) show up in the same list with a **Scrap** button. Hold the button for 1.5 seconds to delete the whole stack, or with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) installed, as many as its counter says. Let go early and nothing happens. You get nothing back, so it is a quick way to clear junk.
 
 Protected from scrap, always: trinkets, quest items, boss and rare creature trophies, keys, and the early axe. A blacklist in the config lets you add more.
 
 ### Creature heads
 
-At the Workbench, creature trophies can be salvaged into materials like bone fragments, entrails, greydwarf eyes, ooze and more. The amount scales with the size of the creature, and the whole stack is done at once. Boss trophies are never touched. The table is editable in the config.
+At the Workbench, creature trophies can be salvaged into materials like bone fragments, entrails, greydwarf eyes, ooze and more. The amount scales with the size of the creature, and the whole stack is done at once (or the number on the MultiCraft counter, if you use it). Boss trophies are never touched. The table is editable in the config.
 
 ### Sort inventory
 
@@ -112,6 +113,7 @@ Everyone on the server needs the mod installed, on the same major and minor vers
 
 - Made to work with [ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/) by shudnal (tested with 1.2.21). Sort fills its empty head, chest, legs, back, utility, trinket, food, ammo and misc slots with the best matching items, equips them, and never touches slots that are already filled. Items in its extra slots are not salvageable.
 - Other mods that add inventory slots are not supported yet. Sort and Drop only use the normal bag rows, so a slot another mod places inside those rows could be used by mistake. If you use one, please tell me which and I will look at adding support.
+- Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) by MaxiMods (written for 1.5.0). On the Salvage tab, its + and - buttons set how many of a stack Scrap, creature heads and Core Wood use, up to the size of the stack. Ctrl+click on + picks the whole stack, and the number goes back to 1 after each use. The buttons are greyed for single items and normal salvage, and MultiCraft's repeat-craft does not run on the Salvage tab. Without MultiCraft the whole stack is used, as before. On a controller the counter uses MultiCraft's own D-pad buttons. This has not been tested with a controller, please report problems.
 - Metal bars come back as bars, like vanilla.
 
 ## Support
