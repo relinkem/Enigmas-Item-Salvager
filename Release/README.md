@@ -32,6 +32,7 @@ The new Salvaging skill, in the skills list:
 - Core Wood can be chopped into Wood at the Workbench (4 Wood each, editable with the LogTable setting).
 - A Sort button that merges partial stacks and tidies your bag, and a hotbar that stays free for tools and weapons.
 - Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/): its counter sets how many of a stack to scrap or break down.
+- Works with Enigma's Expanded Armor Stands: a Swap button in the stand window.
 - Every return value, the ingredient weights and the sayings can be changed in the config.
 
 ## How it works
@@ -66,7 +67,7 @@ A chest open next to the inventory. Take, Stack, Sort and Drop sit beside the ch
 Picking things up leaves half stacks all over the bag. Sort merges partial stacks of the same item, then arranges everything by category, filling the grid in rows like the game does (or one column at a time if you change FillDirection to Columns): equipment, ammo, trinkets, tools, materials, trophies, then food, meads and potions last. Items in the same category are ordered by name.
 
 - **Button:** one on the player inventory panel under the armor readout, and one under Place All when a chest or other container is open. The inventory button sorts your bag, the container button sorts that container (the whole grid, no hotbar row).
-- **Container buttons:** the buttons beside a chest or other container are lined up in one column with space between them: Take (Take All), Stack (Place Stacks), Sort and Drop.
+- **Container buttons:** the buttons beside a chest or other container are lined up in one column with space between them: Take (Take All), Stack (Place Stacks), Sort and Drop. Hidden buttons leave no gap.
 - **Drop button:** it sits below the container's Sort button. It moves everything in your bag below the hotbar into the container, filling existing stacks first, then sorts the container. The hotbar, worn items and other mods' slots are skipped.
 - **Take All:** after Take All, your inventory is sorted automatically (SortAfterTakeAll setting).
 - **Keyboard:** Ctrl+S while the inventory is open (changeable in the settings).
@@ -114,6 +115,7 @@ Everyone on the server needs the mod installed, on the same major and minor vers
 - Made to work with [ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/) by shudnal (tested with 1.2.21). Sort fills its empty head, chest, legs, back, utility, trinket, food, ammo and misc slots with the best matching items, equips them, and never touches slots that are already filled. Items in its extra slots are not salvageable.
 - Other mods that add inventory slots are not supported yet. Sort and Drop only use the normal bag rows, so a slot another mod places inside those rows could be used by mistake. If you use one, please tell me which and I will look at adding support.
 - Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) by MaxiMods (written for 1.5.0). On the Salvage tab, its + and - buttons set how many of a stack Scrap, creature heads and Core Wood use, up to the size of the stack. Ctrl+click on + picks the whole stack, and the number goes back to 1 after each use. The buttons are greyed for single items and normal salvage, and MultiCraft's repeat-craft does not run on the Salvage tab. Without MultiCraft the whole stack is used, as before. On a controller the counter uses MultiCraft's own D-pad buttons. This has not been tested with a controller, please report problems.
+- Works with Enigma's Expanded Armor Stands 0.1.22 or later. In the stand window you get Take, Drop and a Swap button (Stack and Sort are hidden there). Without the armor stand mod the Swap button never shows.
 - Metal bars come back as bars, like vanilla.
 
 ## Support
@@ -124,7 +126,7 @@ If you like the mod and want to say thanks, you can:<br>[buy me a coffee on Ko-f
 
 <br clear="left">
 
-Bug reports and ideas are just as welcome. Open an issue on [GitHub](https://github.com/relinkem/Enigmas-Item-Salvager/issues) and include your BepInEx log (`LogOutput.log`).
+Bug reports and ideas are just as welcome. Open an issue on [GitHub](https://github.com/relinkem/Enigmas-Item-Salvager/issues) and include your BepInEx log (`LogOutput.log`). Ideas and suggestions are also welcome in the comments on my [Ko-fi page](https://ko-fi.com/enigmaprime).
 
 ## More mods by Enigma Prime
 

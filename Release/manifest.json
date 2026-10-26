@@ -1,6 +1,6 @@
 {
   "name": "Enigmas_Item_Salvager",
-  "version_number": "0.1.3",
+  "version_number": "0.1.4",
   "website_url": "https://github.com/relinkem/Enigmas-Item-Salvager",
   "description": "Take your gear apart at the Workbench, Forge, Black Forge or Galdr Table. A Salvage tab, a new Salvaging skill, and hold-to-scrap for items with no recipe.",
   "dependencies": [

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+- New Swap button for the armor stand window of Enigma's Expanded Armor Stands. It sits under Drop and only shows while a stand window is open. It does nothing without that mod (it needs version 0.1.22 or later).
+- The buttons beside a chest or other container are now placed one under the other from Take downwards, so a hidden button leaves no gap. The spacing is the same in every window.
+- In the armor stand window only Take, Drop and Swap are shown. Stack and Sort are hidden there, because the stand only accepts certain items in certain cells.
+
 ## 0.1.3
 - Now works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) by MaxiMods (written for 1.5.0). With it installed, its + and - counter sets how many of a stack the Salvage tab scraps or breaks down (Scrap, creature heads and Core Wood), up to the size of the stack. Ctrl+click on + picks the whole stack, and the counter goes back to 1 after each use. The buttons are greyed for single items and normal salvage, and MultiCraft's repeat-craft no longer runs on the Salvage tab. Without MultiCraft nothing changes: the whole stack is used at once.
 - Looting a tombstone (the Take button or the E key) no longer goes through the hotbar reservation or the sort after Take All, so items stay in the exact slots they came from and ExtraSlots can restore its equipment slots and auto equip. This also holds in multiplayer when another player owns the tombstone.
