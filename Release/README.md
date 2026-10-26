@@ -32,7 +32,7 @@ The new Salvaging skill, in the skills list:
 - Core Wood can be chopped into Wood at the Workbench (4 Wood each, editable with the LogTable setting).
 - A Sort button that merges partial stacks and tidies your bag, and a hotbar that stays free for tools and weapons.
 - Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/): its counter sets how many of a stack to scrap or break down.
-- Works with Enigma's Expanded Armor Stands: a Swap button in the stand window.
+- Manages the Swap button for Enigma's Expanded Armor Stands (a future release).
 - Every return value, the ingredient weights and the sayings can be changed in the config.
 
 ## How it works
@@ -115,7 +115,7 @@ Everyone on the server needs the mod installed, on the same major and minor vers
 - Made to work with [ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/) by shudnal (tested with 1.2.21). Sort fills its empty head, chest, legs, back, utility, trinket, food, ammo and misc slots with the best matching items, equips them, and never touches slots that are already filled. Items in its extra slots are not salvageable.
 - Other mods that add inventory slots are not supported yet. Sort and Drop only use the normal bag rows, so a slot another mod places inside those rows could be used by mistake. If you use one, please tell me which and I will look at adding support.
 - Works with [MultiCraft](https://thunderstore.io/c/valheim/p/MaxiMods/MultiCraft/) by MaxiMods (written for 1.5.0). On the Salvage tab, its + and - buttons set how many of a stack Scrap, creature heads and Core Wood use, up to the size of the stack. Ctrl+click on + picks the whole stack, and the number goes back to 1 after each use. The buttons are greyed for single items and normal salvage, and MultiCraft's repeat-craft does not run on the Salvage tab. Without MultiCraft the whole stack is used, as before. On a controller the counter uses MultiCraft's own D-pad buttons. This has not been tested with a controller, please report problems.
-- Works with Enigma's Expanded Armor Stands 0.1.22 or later. In the stand window you get Take, Drop and a Swap button (Stack and Sort are hidden there). Without the armor stand mod the Swap button never shows.
+- Manages the Swap button for Enigma's Expanded Armor Stands (a future release). It does nothing without that mod.
 - Metal bars come back as bars, like vanilla.
 
 ## Support
