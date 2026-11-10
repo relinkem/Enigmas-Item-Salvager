@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.5
+- Fixed Scrap starting a salvage of the next item in the list. When a hold-to-scrap finished and the next entry could be salvaged, letting go of the mouse button counted as a click and started the salvage. Now nothing starts until you press the button again as a new click.
+
 ## 0.1.4
 - Added management of the Swap button for Enigma's Expanded Armor Stands (a future release). It does nothing without that mod.
 - The buttons beside a chest or other container are now placed one under the other from Take downwards, so a hidden button leaves no gap. The spacing is the same in every window.

@@ -148,6 +148,12 @@ Bug reports and ideas are just as welcome. Open an issue on [GitHub](https://git
 
 <br clear="left">
 
+<a href="https://thunderstore.io/c/valheim/p/Enigma_Prime/Enigmas_Tidy_Cart/"><img src="https://raw.githubusercontent.com/relinkem/Enigmas-Tidy-Cart/main/Release/icon.png" alt="Enigma's Tidy Cart icon" width="96" align="left" hspace="16"></a>
+
+**[Enigma's Tidy Cart](https://thunderstore.io/c/valheim/p/Enigma_Prime/Enigmas_Tidy_Cart/)**<br>Back your empty cart up to a wall and stow it upright out of the way, with your character playing it out.
+
+<br clear="left">
+
 ## How this mod was made
 
 The ideas, the design, and every decision about how salvaging should work are mine: what can be taken apart, how much comes back, how skill changes it, what is protected from scrap, and what the settings should be. However, I am not a programmer. The code was written by Claude, an AI assistant made by Anthropic, working from my direction through [Claude Code](https://claude.com/claude-code).
