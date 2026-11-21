@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6
+- Fixed the Salvage tab covering the Improve tab from Balrond Runeforging. The Salvage tab now sits after the last visible tab in the row instead of a fixed spot, so it also keeps clear of tabs that other mods add to the crafting window.
+- Small efficiency work in the crafting window and the container buttons: less work every frame, no change in what you see or do.
+
 ## 0.1.5
 - Fixed Scrap starting a salvage of the next item in the list. When a hold-to-scrap finished and the next entry could be salvaged, letting go of the mouse button counted as a click and started the salvage. Now nothing starts until you press the button again as a new click.
 
